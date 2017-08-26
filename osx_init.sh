@@ -15,4 +15,6 @@ unzip iTerm2-3_0_15.zip
 mv iTerm.app ~/Applicaitons/
 rm iTerm.app
 rm iTerm2-3_0_15.zip #Remove
-open -a iTerm `curl https://raw.githubusercontent.com/joeratt/osx-_init/master/osx_init_iterm.sh | bash`
+curl -O https://raw.githubusercontent.com/joeratt/osx-_init/master/osx_init_iterm.sh
+chmod 755 osx_init_iterm.sh
+open -a iTerm `bash osx_init_iterm.sh`
