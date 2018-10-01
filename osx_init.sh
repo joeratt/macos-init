@@ -28,7 +28,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 mkdir ~/maven
 
 # 3.5.4
-curl -O http://mirror.olnevhost.net/pub/apache/maven/maven-3/3.5.3/binaries/apache-maven-3.5.4-bin.zip
+curl -O http://mirror.olnevhost.net/pub/apache/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.zip
 unzip apache-maven-3.5.4-bin.zip 
 mv apache-maven-3.5.4 ~/maven/3.5.4
 rm apache-maven-3.5.4-bin.zip
