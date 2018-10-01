@@ -9,9 +9,6 @@ cd ~/Downloads
 # Download iTerm2
 brew cask install iterm2
 
-# Download Microsoft Teams
-brew cask install microsoft-teams
-
 # Install Atom Text Editor
 brew cask install atom
 
