@@ -24,12 +24,15 @@ brew install git
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# Install zsh autosuggestions
+brew install zsh-autosuggestions
+
 # Install Maven
 mkdir ~/maven
 
 # 3.5.4
 curl -O http://mirror.olnevhost.net/pub/apache/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.zip
-unzip apache-maven-3.5.4-bin.zip 
+unzip apache-maven-3.5.4-bin.zip
 mv apache-maven-3.5.4 ~/maven/3.5.4
 rm apache-maven-3.5.4-bin.zip
 
@@ -47,7 +50,7 @@ rm apache-maven-3.2.5-bin.zip
 
 # 3.0.5
 curl -O https://archive.apache.org/dist/maven/maven-3/3.0.5/binaries/apache-maven-3.0.5-bin.zip
-unzip apache-maven-3.0.5-bin.zip 
+unzip apache-maven-3.0.5-bin.zip
 mv apache-maven-3.0.5 ~/maven/3.0.5
 rm apache-maven-3.0.5-bin.zip
 
@@ -77,4 +80,3 @@ echo "alias jdk8='export JAVA_HOME=\`/usr/libexec/java_home -v \"1.8\"\`'" >> ~/
 
 #Set Java 8 to the default
 echo "jdk8" >> ~/.zshrc
-
