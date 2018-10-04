@@ -16,3 +16,4 @@ This repository adds:
   * 3.0.5
 * [RVM](https://rvm.io/)
   * Ruby-2.5.1
+* [Automake](https://www.gnu.org/software/automake/)
