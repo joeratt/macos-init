@@ -21,6 +21,9 @@ brew cask install google-chrome
 #Install git
 brew install git
 
+#Install automake
+brew install automake
+
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
