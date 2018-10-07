@@ -83,3 +83,9 @@ echo "alias jdk8='export JAVA_HOME=\`/usr/libexec/java_home -v \"1.8\"\`'" >> ~/
 
 #Set Java 8 to the default
 echo "jdk8" >> ~/.zshrc
+
+#Install Jarvis - personal assistant
+# source - https://github.com/sukeesh/Jarvis 
+git clone https://github.com/sukeesh/Jarvis
+cd Jarvis
+./setup.sh
