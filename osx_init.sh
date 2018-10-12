@@ -21,6 +21,10 @@ brew cask install google-chrome
 #Install git
 brew install git
 
+#Install hub
+brew install hub
+echo "alias git=hub" >> ~/.zshrc
+
 #Install automake
 brew install automake
 

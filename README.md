@@ -8,6 +8,7 @@ This repository adds:
 * [Postman](https://www.getpostman.com/)
 * [Chrome](https://www.google.com/chrome/)
 * [Git](https://git-scm.com/)
+* [Hub](https://hub.github.com/)
 * [Oh-My-ZSH](https://ohmyz.sh/)
 * [Maven](https://maven.apache.org/)
   * 3.5.4
