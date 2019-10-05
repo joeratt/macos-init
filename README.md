@@ -4,17 +4,18 @@ This repository is meant to be a quick-start setup for a new OS X device.
 
 This repository adds:
 * [iTerm 2](https://www.iterm2.com/)
-* [Atom](https://atom.io/)
+* [Visual Studio Code](https://code.visualstudio.com/)
 * [Postman](https://www.getpostman.com/)
-* [Chrome](https://www.google.com/chrome/)
+* [Firefox](https://www.mozilla.org/firefox/)
 * [Git](https://git-scm.com/)
 * [Hub](https://hub.github.com/)
 * [Oh-My-ZSH](https://ohmyz.sh/)
 * [Maven](https://maven.apache.org/)
+  * 3.6.2
   * 3.5.4
-  * 3.3.9
-  * 3.2.5
-  * 3.0.5
 * [RVM](https://rvm.io/)
-  * Ruby-2.5.1
+  * Ruby-2.6.2
 * [Automake](https://www.gnu.org/software/automake/)
+* [Java - Adopt OpenJDK](https://adoptopenjdk.net/)
+  * 12
+  * 1.8
