@@ -19,3 +19,4 @@ This repository adds:
 * [Java - Adopt OpenJDK](https://adoptopenjdk.net/)
   * 12
   * 1.8
+* [PyCharm](https://www.jetbrains.com/pycharm/download/#section=mac)
