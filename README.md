@@ -1,6 +1,6 @@
 # osx-init
 
-This repository is meant to be a quick-start setup for a new OS X device.
+This repository is meant to be a quick-start setup for a new OS X device. This README outlines what will be installed when the main [osx_init.sh](./osx_init.sh) script is run.
 
 To use this code, open `Terminal` and run the following command:
 ```bash
