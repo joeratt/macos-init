@@ -27,7 +27,7 @@ brew cask install webtorrent
 # Install KeePassX
 brew cask install keepassx
 
-# Install sublime-test
+# Install sublime-text
 brew cask install sublime-text
 
 #Install git
