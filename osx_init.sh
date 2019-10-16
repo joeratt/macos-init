@@ -18,6 +18,18 @@ brew cask install postman
 # Install Firefox
 brew cask install google-chrome
 
+# Install Thunderbird
+brew cask install thunderbird
+
+# Install WebTorrent
+brew cask install webtorrent
+
+# Install KeePassX
+brew cask install keepassx
+
+# Install sublime-text
+brew cask install sublime-text
+
 #Install git
 brew install git
 
