@@ -95,3 +95,7 @@ echo "jdk12" >> ~/.zshrc
 git clone https://github.com/sukeesh/Jarvis
 cd Jarvis
 ./setup.sh
+
+# Install Postgres
+brew install postgres
+ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
