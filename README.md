@@ -31,3 +31,4 @@ This repository adds:
   * 1.8
 * [Python](https://www.python.org/)
 * [Pip - Python Package Manager](https://pypi.org/project/pip/)
+* [Atom - Text Editior](https://atom.io/)
