@@ -29,3 +29,5 @@ This repository adds:
 * [Java - Adopt OpenJDK](https://adoptopenjdk.net/)
   * 12
   * 1.8
+* [Python](https://www.python.org/)
+* [Pip - Python Package Manager](https://pypi.org/project/pip/)

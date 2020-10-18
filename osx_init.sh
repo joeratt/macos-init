@@ -90,6 +90,12 @@ echo "alias jdk12='export JAVA_HOME=\`/usr/libexec/java_home -v \"12\"\`'" >> ~/
 #Set Java 8 to the default
 echo "jdk12" >> ~/.zshrc
 
+# Install Python:
+brew install python3
+
+# Install Pip Python's Package Manager
+bew install pip3
+
 #Install Jarvis - personal assistant
 # source - https://github.com/sukeesh/Jarvis 
 git clone https://github.com/sukeesh/Jarvis
