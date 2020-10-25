@@ -99,3 +99,7 @@ cd Jarvis
 # Install Postgres
 brew install postgres
 ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+
+# Install Go for backend dev
+brew install go
+go version # should print version after successful install
