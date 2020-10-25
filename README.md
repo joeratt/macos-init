@@ -30,3 +30,4 @@ This repository adds:
   * 12
   * 1.8
 * [Postgress](https://www.postgresql.org/)
+* [Go](https://golang.org/)
