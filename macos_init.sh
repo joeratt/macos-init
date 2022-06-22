@@ -4,34 +4,34 @@
 cd ~/Downloads
 
 # Install Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Download iTerm2
-brew cask install iterm2
+brew install iterm2
 
 # Install Visual Studio Code
-brew cask install visual-studio-code
+brew install visual-studio-code
 
 # Install Postman
-brew cask install postman
+brew install postman
 
 # Install Firefox
-brew cask install google-chrome
+brew install google-chrome
 
 # Install Thunderbird
-brew cask install thunderbird
+brew install thunderbird
 
 # Install WebTorrent
-brew cask install webtorrent
+brew install webtorrent
 
 # Install KeePassX
-brew cask install keepassx
+brew install keepassx
 
 # Install sublime-text
-brew cask install sublime-text
+brew install sublime-text
 
 #Install git
-brew install git
+brew git
 
 #Install hub
 brew install hub
