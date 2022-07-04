@@ -6,69 +6,32 @@ cd ~/Downloads
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Download iTerm2
-brew install iterm2
+# Download Brewfile and Install
+curl -O https://raw.githubusercontent.com/joeratt/macos-init/master/Brewfile
 
-# Install Visual Studio Code
-brew install visual-studio-code
+brew bundle --file Brewfile
 
-# Install Postman
-brew install postman
-
-# Install Firefox
-brew install google-chrome
-
-# Install Thunderbird
-brew install thunderbird
-
-# Install WebTorrent
-brew install webtorrent
-
-# Install KeePassX
-brew install keepassx
-
-# Install sublime-text
-brew install sublime-text
-
-#Install git
-brew git
-
-#Install hub
-brew install hub
-echo "alias git=hub" >> ~/.zshrc
-
-#Install automake
-brew install automake
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# Install zsh autosuggestions
-brew install zsh-autosuggestions
-
 # Install Maven
 mkdir ~/maven
 
-# 3.6.2
-curl -O http://mirror.olnevhost.net/pub/apache/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.zip
-unzip apache-maven-3.6.2-bin.zip
-mv apache-maven-3.6.2 ~/maven/3.6.2
-rm apache-maven-3.6.2-bin.zip
+# Maven 3.8.6
+curl -O https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.zip
+unzip apache-maven-3.8.6-bin.zip
+mv apache-maven-3.8.6 ~/maven/3.8.6
+rm apache-maven-3.8.6-bin.zip
 
-# 3.5.4
-curl -O http://mirror.olnevhost.net/pub/apache/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.zip
-unzip apache-maven-3.5.4-bin.zip
-mv apache-maven-3.5.4 ~/maven/3.5.4
-rm apache-maven-3.5.4-bin.zip
 
 chmod -R 755 ~/maven
 
 # Add maven configs to .zshrc
-echo "alias mvn362='ln -sf ~/maven/3.6.2/bin/mvn /usr/local/bin/mvn'" >> ~/.zshrc
-echo "alias mvn354='ln -sf ~/maven/3.5.4/bin/mvn /usr/local/bin/mvn'" >> ~/.zshrc
+echo "alias mvn386='ln -sf ~/maven/3.8.6/bin/mvn /usr/local/bin/mvn'" >> ~/.zshrc
 
-#Set Maven 3.5.4 to the default
-echo "mvn362" >> ~/.zshrc
+#Set Maven 3.8.6 to the default
+echo "mvn386" >> ~/.zshrc
 
 # Install rvm - Ruby
 brew install gpg
@@ -78,28 +41,9 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 source /Users/jr017790/.rvm/scripts/rvm
 rvm install ruby-2.6.2
 
-# Install Java 
-brew tap AdoptOpenJDK/openjdk
-brew cask install adoptopenjdk8
-brew cask install adoptopenjdk12
 
 # Set up Java aliases
-echo "alias jdk8='export JAVA_HOME=\`/usr/libexec/java_home -v \"1.8\"\`'" >> ~/.zshrc
-echo "alias jdk12='export JAVA_HOME=\`/usr/libexec/java_home -v \"12\"\`'" >> ~/.zshrc
+echo "alias jdk18='export JAVA_HOME=\`/usr/libexec/java_home -v \"18\"\`'" >> ~/.zshrc
 
 #Set Java 8 to the default
-echo "jdk12" >> ~/.zshrc
-
-#Install Jarvis - personal assistant
-# source - https://github.com/sukeesh/Jarvis 
-git clone https://github.com/sukeesh/Jarvis
-cd Jarvis
-./setup.sh
-
-# Install Postgres
-brew install postgres
-ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
-
-# Install Go for backend dev
-brew install go
-go version # should print version after successful install
+echo "jdk18" >> ~/.zshrc
